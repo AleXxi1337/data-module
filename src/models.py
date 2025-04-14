@@ -12,3 +12,6 @@ class CSVGetCell(BaseModel):
 class CSVGetColumn(BaseModel):
     dataset: str
     col: int
+
+class EmbeddigsGet(BaseModel):
+    filters: dict
